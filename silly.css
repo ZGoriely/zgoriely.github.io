@@ -1,4 +1,3 @@
-@@ -0,0 +1,107 @@
 /* 
 Colors used:
 	#1446A0 (blue)
@@ -26,7 +25,20 @@ a {
 }
 
 .introductory {
-	font-size:; 1.2em;
+	font-size: 1.2em;
+    transition: transform 2s;
+}
+
+.introductory:hover {
+    background: #DF4B7F;
+    transform: scale(1.3);
+    transform: rotate(360deg);
+}
+
+.introductory:active {
+    background: #7F000F;
+    transform: scale(0.9);
+    transform: rotate(-720deg);
 }
 
 .main-content {
@@ -38,6 +50,18 @@ a {
 
 	margin-left: auto;
 	margin-right: auto;
+
+    transition: transform 2s;
+}
+
+.main-content:hover {
+    transform: scale(1.3);
+    transform: rotate(360deg);
+}
+
+.main-content:active {
+    transform: scale(0.9);
+    transform: rotate(-720deg);
 }
 
 .links {
@@ -45,6 +69,17 @@ a {
   padding: 10px;
   border: 2px solid black;
   background: #F5D547;
+  transition: transform 2s;
+}
+
+.links:hover {
+    transform: scale(1.3);
+    transform: rotate(360deg);
+}
+
+.links:active {
+    transform: scale(0.9);
+    transform: rotate(-720deg);
 }
 
 .button {
@@ -105,4 +140,15 @@ a {
     text-shadow: 2px 2px 5px black;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    transition: transform 2s;
+}
+
+.hero-heading:hover {
+    transform: scale(1.3);
+    transform: rotate(360deg);
+}
+
+.hero-heading:active {
+    transform: scale(0.9);
+    transform: rotate(-720deg);
 }
