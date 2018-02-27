@@ -1,0 +1,8 @@
+.box-model-test {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  background: red;
+}

@@ -1,0 +1,107 @@
+/* 
+Colors used:
+	#1446A0 (blue)
+	#AF1B3F (red)
+	#473144 (puce)
+	#F5D547 (yellow)
+	#EBEBD3 (white)
+*/
+
+html, body {
+	background: #EBEBD3;
+	color : #473144;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+	color: #473144;
+}
+
+a {
+	color: #1446A0;
+}
+
+.introductory {
+	font-size:; 1.2em;
+}
+
+.main-content {
+	width: 600px;
+	max-width: 100%;
+
+	padding: 20px;
+	box-sizing: border-box;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.links {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  background: #F5D547;
+}
+
+.button {
+    display: inline-block;
+
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+
+    margin-right: 1em;
+    margin-bottom: 1em;
+
+    background: #AF1B3F;
+    color: #1446A0;
+
+    border-radius: 4px;
+
+    text-decoration: none;
+
+    transition: transform 2s;
+}
+
+.button:hover {
+	background: #DF4B7F;
+	transform: scale(1.3);
+	transform: rotate(360deg);
+}
+
+.button:active {
+	background: #7F000F;
+	transform: scale(0.9);
+	transform: rotate(-720deg);
+}
+
+.hero-container {
+    /* Add a lot of padding so we can see a lot of the image */
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /* Set the background to an image */
+    background: url(NYC1.jpg);
+
+    /* Make the image cover the entirety of the hero */
+    background-size: cover;
+    background-position: center;
+
+    /* Put the text in the middle */
+    text-align: center;
+
+}
+
+.hero-heading {
+	font-size: 5em;
+    color: #AF1B3F;
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
