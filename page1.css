@@ -1,0 +1,12 @@
+.color-creator-box {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px; 
+    font-size: 2em;
+    text-align: center;
+
+    transition: 2s;
+}
