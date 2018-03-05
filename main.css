@@ -112,6 +112,7 @@ a {
     text-shadow: 2px 2px 5px black;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+    transition: transform 2s;
 }
 
 .hero-heading:hover {
